@@ -44,27 +44,37 @@
                 <a class="close-link" href="#"><svg class="modal-close" width="8" height="8"><use href="./images/icon-close1.svg#icon-close-black-18dp1"></use></svg></a>
             </button>
             <div>
-                <p>Leave your contacts and we will call you back</p>
-                <label for="person">Name</label>
-                <input type="text" name="" id="person">
+                <p class="modal-text">Leave your contacts and we will call you back</p>
+                <form class="form">
+                    <div class="form-wrap">
+                <label for="person" class="form-label">Name</label>
+                <input type="text" class="form-input" name="name" id="person">
                 <a href="#" class=""><svg class="Subscribe-icon" width="12" height="12"><use href="./images/icons.svg#icon-person-black-18dp-1"></use></svg></a>
-                <label for="tel">Phone</label>
-                <input type="tel" name="" id="tel">
+                </div>
+                <div class="form-wrap">
+                <label for="tel" class="form-label">Phone</label>
+                <input type="tel" class="form-input" name="tel" id="tel">
                 <a href="#" class=""><svg class="Subscribe-icon" width="13" height="13"><use href="./images/icons.svg#icon-phone-black-18dp-1"></use></svg></a>
-                <label for="post">Email</label>
-                <input type="email" name="" id="post">
+                </div>
+                <div class="form-wrap">
+                    <label for="post" class="form-label">Email</label>
+                <input type="email" class="form-input" name="mail" id="post">
                 <a href="#" class=""><svg class="Subscribe-icon" width="15" height="12"><use href="./images/icons.svg#icon-email-black-18dp-1"></use></svg></a>
-                <label for="comment">Comment</label>
-                <input type="textarea" name="" id="comment" placeholder="Text input">
-<div>
-                <label for="check"></label>
+                </div>
+                <div class="form-wrap">
+                    <label for="comment" class="form-label">Comment</label>
+                <input type="textarea" class="form-input" name="comment" id="comment" placeholder="Text input" width="30" height="30">
+                </div>
+                <div class="form-wrap">
+                <label for="check" class=""></label>
                 <a href="#" class=""><svg class="Subscribe-icon" width="10" height="8"><use href="./images/icons.svg#icon-Vector"></use></svg></a>
-<input type="checkbox" name="" id="check">
-<p>I accept the terms and conditions of the Privacy Policy</p>
-</div>
-                <button type="submit">Send</button>
+                <input type="checkbox" class="check-input" name="check" id="check">
+                <p>I accept the terms and conditions of the Privacy Policy</p>
+                </div>
+                <button type="submit" class="modal-send">Send</button>
 
-            </div>
+            </form>
+        </div>
         </div>
     </div>
 </section>
@@ -244,11 +254,14 @@
 </div>
 <div class="subscribe">
 <p class="subscribe-text">Subscribe</p>
-<form class="footer-input">
-    <input type="email" placeholder="E-mail">
+<form class="footer-form">
+
+        <input type="email" class="footer-input" placeholder="E-mail">
+<div class="">
 <button type="submit" class="subscribe-button">Subscribe
-<a href="#" class=""><svg class="Subscribe-icon" width="24" height="20"><use href="./images/icons.svg#icon-Frame-3"></use></svg></a>
+<svg class="Subscribe-icon" width="24" height="20"><use href="./images/icons.svg#icon-Frame-3"></use></svg>
 </button>
+</div>
 </form>
 </div>
 </div>
